@@ -1,30 +1,15 @@
-# 📋 Template-Anleitung (BITTE LÖSCHEN nach Setup)
+# 📋 Template-Anleitung
 
-> **Für Kursteilnehmer*innen:** Diese Sektion nach dem Setup Ihres Projekts löschen!
+> **Für Kursteilnehmer*innen:** Diese Sektion nach dem Setup deines Projekts löschen!
 
 ## So verwenden Sie dieses Template:
+Dieses Template hilft dir, dein Data Science Projekt effizient zu organisieren und zu dokumentieren. Es bietet eine gängige Struktur, um deine Arbeit zu planen, durchzuführen und zu präsentieren. Templates können in GitHub über den Button **"Use this template"** in der oberen rechten Ecke in ein eigenes Repository überführt werden. Nutze diese Vorlage als Inspiration und passe sie an dein Projekt an! 
 
-1. **Template Setup:**
-   - Repository mit "Use this template" erstellen
-   - Kanban-Board einrichten (siehe [PROJECT_SETUP.md](PROJECT_SETUP.md))
-   - Issue-Templates sind automatisch verfügbar
+Neben einer grundlegenden Ordnerstruktur für deine Dateien und Notebooks, enthält dieses Template unter `.github\ISSUE_TEMPLATE` einige Vorlagen für GitHub Issues, die dir helfen, deine Aufgaben zu organisieren und den Fortschritt deines Projekts zu verfolgen.
 
-2. **Issue-Templates nutzen:**
-   - Über "New Issue" → Template auswählen
-   - 📊 **Data Collection** - für Datensammlung
-   - 🧹 **Data Preprocessing** - für Datenbereinigung  
-   - 🤖 **Modeling** - für ML/Analyse
-   - 📈 **Visualization** - für Berichte/Präsentationen
-   - 📅 **Wochenplanung** - für regelmäßige Planung
+Lies dir die Datei `PROJECT_SETUP.md` durch, um mehr über die Nutzung dieses Templates zu erfahren.
 
-3. **Projekt-README erstellen:**
-   - Untenstehende Vorlage ausfüllen
-   - Diese Anleitung (bis zur Linie) löschen
-   - Ihr Projektthema eintragen
-
-**📖 Detaillierte Anleitung:** [PROJECT_SETUP.md](PROJECT_SETUP.md)
-
----
+Für dein Projekt kannst du die folgenden Abschnitte in der `README.md` Datei anpassen, um dein Projekt zu beschreiben und zu präsentieren. Lösche anschließend diese Anleitung.
 
 # [IHR PROJEKTTITEL HIER] 🚀
 
