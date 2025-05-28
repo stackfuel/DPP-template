@@ -39,8 +39,7 @@ Für dein Projekt kannst du die folgenden Abschnitte in der `README.md` Datei an
 ```
 ├── data/
 │   ├── raw/              # Originaldaten
-│   ├── processed/        # Bereinigte Daten
-│   └── external/         # Externe Datenquellen
+│   └── processed/        # Bereinigte Daten
 ├── notebooks/
 │   ├── 01_exploration.ipynb    # Datenexploration
 │   ├── 02_preprocessing.ipynb  # Datenbereinigung
@@ -101,9 +100,7 @@ git clone [DEIN-REPO-LINK]
 cd [REPO-NAME]
 
 # Dependencies installieren
-pip install -r requirements.txt
-# oder
-conda env create -f environment.yml
+uv sync
 ```
 
 ### Ausführung
@@ -115,12 +112,6 @@ conda env create -f environment.yml
 # 4. notebooks/04_results.ipynb
 ```
 
-## 📝 Projektdokumentation
-
-- **[Projektverlauf](docs/project_timeline.md)** - Zeitlicher Ablauf und Meilensteine
-- **[Datenanalyse](notebooks/01_exploration.ipynb)** - Explorative Datenanalyse
-- **[Modellvergleich](docs/model_comparison.md)** - Vergleich verschiedener Ansätze
-- **[Lessons Learned](docs/lessons_learned.md)** - Erkenntnisse und Herausforderungen
 
 ## 🎓 Über dieses Projekt
 
@@ -141,7 +132,7 @@ conda env create -f environment.yml
 
 ## 🙏 Danksagungen
 
-<!-- Danksagungen an Kursleiter, Datenquellen, etc. -->
+<!-- Hier kannst du Personen oder Ressourcen erwähnen, die dir geholfen haben -->
 
 ---
 
