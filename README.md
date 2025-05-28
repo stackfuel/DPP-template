@@ -11,24 +11,25 @@ Lies dir die Datei `PROJECT_SETUP.md` durch, um mehr über die Nutzung dieses Te
 
 Für dein Projekt kannst du die folgenden Abschnitte in der `README.md` Datei anpassen, um dein Projekt zu beschreiben und zu präsentieren. Lösche anschließend diese Anleitung.
 
-# [IHR PROJEKTTITEL HIER] 🚀
 
-> Eine kurze, prägnante Beschreibung Ihres Data Science Projekts in 1-2 Sätzen.
+# [DEIN PROJEKTTITEL HIER] 🚀
+
+> Eine kurze, prägnante Beschreibung deines Data Science Projekts in 1-2 Sätzen.
 
 ## 📊 Projektübersicht
 
 **Problemstellung:** 
-<!-- Beschreiben Sie das Problem, das Sie lösen möchten -->
+<!-- Beschreibe das Problem, das du lösen möchtest -->
 
 **Ziel:** 
-<!-- Was ist das Hauptziel Ihres Projekts? -->
+<!-- Was ist das Hauptziel deines Projekts? -->
 
 **Methoden:** 
-<!-- Welche Techniken/Algorithmen verwenden Sie? -->
+<!-- Welche Techniken/Algorithmen verwendest du? -->
 
 ## 🎯 Key Findings
 
-<!-- Hier Ihre wichtigsten Erkenntnisse in 3-5 Bullet Points -->
+<!-- Hier deine wichtigsten Erkenntnisse in 3-5 Bullet Points -->
 - 📈 **Erkenntnis 1:** Kurze Beschreibung
 - 🔍 **Erkenntnis 2:** Kurze Beschreibung  
 - 💡 **Erkenntnis 3:** Kurze Beschreibung
@@ -47,7 +48,7 @@ Für dein Projekt kannst du die folgenden Abschnitte in der `README.md` Datei an
 │   └── 04_results.ipynb        # Ergebnisse & Visualisierung
 ├── src/                  # Python/R Skripte
 ├── reports/              # Berichte und Präsentationen
-└── docs/                # Zusätzliche Dokumentation
+└── docs/                 # Zusätzliche Dokumentation
 ```
 
 ## 🔧 Verwendete Technologien
@@ -64,7 +65,7 @@ Für dein Projekt kannst du die folgenden Abschnitte in der `README.md` Datei an
 ## 📊 Daten
 
 **Datenquelle:** 
-<!-- Woher kommen Ihre Daten? -->
+<!-- Woher kommen deine Daten? -->
 
 **Datensatz-Größe:** 
 <!-- Anzahl Zeilen/Spalten, Dateigröße -->
@@ -75,28 +76,28 @@ Für dein Projekt kannst du die folgenden Abschnitte in der `README.md` Datei an
 ## 🤖 Methodik
 
 ### Data Preprocessing
-<!-- Kurze Beschreibung Ihrer Datenbereinigung -->
+<!-- Kurze Beschreibung deiner Datenbereinigung -->
 
 ### Modeling Approach  
-<!-- Welche Modelle haben Sie getestet? -->
+<!-- Welche Modelle hast du getestet? -->
 
 ### Evaluation
-<!-- Wie haben Sie die Ergebnisse bewertet? -->
+<!-- Wie hast du die Ergebnisse bewertet? -->
 
 ## 📈 Ergebnisse
 
 **Model Performance:**
-<!-- Ihre besten Metriken (Accuracy, RMSE, etc.) -->
+<!-- Deine besten Metriken (Accuracy, RMSE, etc.) -->
 
 **Wichtigste Visualisierungen:**
-<!-- Verweis auf Key-Plots in Ihren Notebooks -->
+<!-- Verweis auf Key-Plots in deinen Notebooks -->
 
 ## 🚀 Reproduzierbarkeit
 
 ### Setup
 ```bash
 # Repository klonen
-git clone [IHR-REPO-LINK]
+git clone [DEIN-REPO-LINK]
 cd [REPO-NAME]
 
 # Dependencies installieren
@@ -124,19 +125,19 @@ conda env create -f environment.yml
 ## 🎓 Über dieses Projekt
 
 **Kontext:** 
-<!-- Im Rahmen welchen Kurses/welcher Veranstaltung? -->
+<!-- Im Rahmen welches Kurses/welcher Veranstaltung? -->
 
 **Zeitraum:** 
-<!-- Wann wurde das Projekt durchgeführt? -->
+<!-- Wann hast du das Projekt durchgeführt? -->
 
 **Autor:** 
-<!-- Ihr Name -->
+<!-- Dein Name -->
 
 ## 📞 Kontakt
 
-**GitHub:** [@IhrUsername](https://github.com/IhrUsername)  
-**E-Mail:** ihre.email@beispiel.de  
-**LinkedIn:** [Ihr Profil](https://linkedin.com/in/ihr-profil)
+**GitHub:** [@DeinUsername](https://github.com/DeinUsername)  
+**E-Mail:** deine.email@beispiel.de  
+**LinkedIn:** [Dein Profil](https://linkedin.com/in/dein-profil)
 
 ## 🙏 Danksagungen
 
@@ -144,4 +145,4 @@ conda env create -f environment.yml
 
 ---
 
-**⭐ Wenn Ihnen dieses Projekt gefällt, geben Sie gerne einen Star!**
+**⭐ Wenn dir dieses Projekt gefällt, gib gerne einen Star!**
