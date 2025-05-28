@@ -1,26 +1,27 @@
+
 # Data Science Projekt Template 🚀
 
-Willkommen zu Ihrem strukturierten Data Science Projekt! Dieses Template hilft Ihnen dabei, Ihr Projekt professionell zu organisieren und transparent zu dokumentieren.
+Willkommen zu deinem Data Science Projekt! Dieses Template hilft dir dabei, dein Projekt professionell zu organisieren und transparent zu dokumentieren.
 
-## 📋 Schnellstart: Ihr Projekt in 5 Schritten
+## 📋 Schnellstart: Dein Projekt in 5 Schritten
 
 ### 1. Template verwenden
-- Klicken Sie auf **"Use this template"** → **"Create a new repository"**
-- Wählen Sie einen passenden Repository-Namen für Ihr Projekt
-- Stellen Sie sicher, dass das Repository **public** ist (für Kurszwecke)
+- Klicke auf **"Use this template"** → **"Create a new repository"**
+- Wähle einen passenden Repository-Namen für dein Projekt
+- Stelle sicher, dass das Repository **public** ist (für Kurszwecke)
 
 ### 2. Repository anpassen
-- [ ] `README.md` mit Ihrem Projektthema aktualisieren
+- [ ] `README.md` mit deinem Projektthema aktualisieren
 - [ ] `PROJECT_SETUP.md` durchlesen
-- [ ] Issues für Ihr spezifisches Projekt anpassen
+- [ ] Issues für dein spezifisches Projekt anpassen
 
 ### 3. Kanban-Board erstellen
-- [ ] Gehen Sie zu **"Projects"** → **"New project"**
-- [ ] Wählen Sie **"Board"** Template
-- [ ] Folgen Sie der detaillierten Anleitung unten
+- [ ] Gehe zu **"Projects"** → **"New project"**
+- [ ] Wähle das **"Board"** Template
+- [ ] Folge der detaillierten Anleitung unten
 
 ### 4. Issues verknüpfen
-- [ ] Bestehende Issues mit Ihrem Board verknüpfen
+- [ ] Bestehende Issues mit deinem Board verknüpfen
 - [ ] Neue projektspezifische Issues erstellen
 
 ### 5. Wöchentliche Planung einrichten
@@ -31,7 +32,7 @@ Willkommen zu Ihrem strukturierten Data Science Projekt! Dieses Template hilft I
 
 ## 🎯 Über dieses Template
 
-Dieses Template ist speziell für Data Science Projekte in Kursen entwickelt und bietet:
+Dieses Template ist speziell für Data Science Projekte in Kursen entwickelt und bietet dir:
 
 - **Strukturierte Projektorganisation** mit Kanban-Boards
 - **Vordefinierte Aufgabenvorlagen** für typische Data Science Workflows
@@ -46,11 +47,11 @@ Dieses Template ist speziell für Data Science Projekte in Kursen entwickelt und
 1. **Repository öffnen** → Reiter **"Projects"**
 2. **"New project"** klicken
 3. **"Board"** auswählen (nicht "Table" oder "Roadmap")
-4. **Projektnamen eingeben**: z.B. "[Ihr Name] - Data Science Projekt"
+4. **Projektnamen eingeben**: z.B. "[Dein Name] - Data Science Projekt"
 5. **"Create"** klicken
 
 ### Spalten konfigurieren
-Ihr Board sollte diese Spalten haben (Standard + Ergänzungen):
+Dein Board sollte diese Spalten haben (Standard + Ergänzungen):
 
 | Spalte | Zweck | Automatisierung |
 |--------|-------|-----------------|
@@ -85,7 +86,7 @@ Ihr Board sollte diese Spalten haben (Standard + Ergänzungen):
 
 ## 📋 Issue-Vorlagen nutzen
 
-In diesem Repository finden Sie vordefinierte Issue-Templates:
+In diesem Repository findest du vordefinierte Issue-Templates:
 
 ### 1. 📊 Data Collection & Exploration
 **Typische Aufgaben:**
@@ -119,13 +120,13 @@ In diesem Repository finden Sie vordefinierte Issue-Templates:
 1. **"Issues"** Tab → **"New issue"**
 2. **Template auswählen** oder **"Open a blank issue"**
 3. **Titel, Beschreibung, Labels** hinzufügen
-4. **Milestone und Assignee** setzen (sich selbst)
+4. **Milestone und Assignee** setzen (dich selbst)
 
 ---
 
 ## 🏷️ Labels und Kategorien
 
-Nutzen Sie diese Label-Struktur für bessere Organisation:
+Nutze diese Label-Struktur für bessere Organisation:
 
 ### Priorität
 - 🔴 `priority: high` - Kritische Aufgaben
@@ -162,7 +163,7 @@ Nutzen Sie diese Label-Struktur für bessere Organisation:
 3. **Zeitschätzungen** in Issue-Beschreibungen ergänzen
 
 **Jeden Freitag:**
-1. **Fortschritt reviewen** - was ist in "Done"?
+1. **Fortschritt reviewen** – was ist in "Done"?
 2. **Blockierte Issues** identifizieren und lösen
 3. **Nächste Woche vorbereiten**
 
@@ -188,7 +189,7 @@ Wann ist diese Aufgabe wirklich fertig?
 ```
 
 ### Commit-Messages
-**Verknüpfen Sie Commits mit Issues:**
+**Verknüpfe deine Commits mit Issues:**
 ```bash
 git commit -m "Add data cleaning pipeline - closes #3"
 git commit -m "Fix missing value handling - refs #3"
@@ -213,8 +214,8 @@ git commit -m "Fix missing value handling - refs #3"
 ### Häufige Probleme
 
 **❓ "Ich sehe mein Board nicht"**
-- Board muss mit Repository verknüpft sein
-- Prüfen Sie Repository-Settings → Projects
+- Das Board muss mit deinem Repository verknüpft sein
+- Prüfe die Repository-Settings → Projects
 
 **❓ "Issues erscheinen nicht im Board"**  
 - Issues manuell zum Board hinzufügen
@@ -249,6 +250,6 @@ Dieses Template wird regelmäßig verbessert. Um Updates zu erhalten:
 
 ---
 
-**Viel Erfolg bei Ihrem Data Science Projekt! 🚀**
+**Viel Erfolg bei deinem Data Science Projekt! 🚀**
 
 > Erstellt mit ❤️ für strukturierte, transparente Projektarbeit
