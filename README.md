@@ -38,16 +38,14 @@ Für dein Projekt kannst du die folgenden Abschnitte in der `README.md` Datei an
 
 ```
 ├── data/
-│   ├── raw/              # Originaldaten
-│   └── processed/        # Bereinigte Daten
-├── notebooks/
-│   ├── 01_exploration.ipynb    # Datenexploration
-│   ├── 02_preprocessing.ipynb  # Datenbereinigung
-│   ├── 03_modeling.ipynb       # Modellentwicklung
-│   └── 04_results.ipynb        # Ergebnisse & Visualisierung
-├── src/                  # Python/R Skripte
-├── reports/              # Berichte und Präsentationen
-└── docs/                 # Zusätzliche Dokumentation
+│   ├── raw/                    # Originaldaten
+│   └── processed/              # Bereinigte Daten
+├── notebooks/                  # Jupyter Notebooks
+│   └── 01_exploration.ipynb    # Datenexploration
+├── src/dpp                     # Python Module
+├── test/                       # Unit Tests
+├── pyproject.toml              # Projektkonfiguration
+└── docs/                       # Zusätzliche Dokumentation
 ```
 
 ## 🔧 Verwendete Technologien
