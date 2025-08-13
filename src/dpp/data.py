@@ -26,18 +26,25 @@ def _move_files(source_path: str, destination: str):
     print(f"Files moved to '{destination}' directory.")
 
 
-def load_from_kaggle(dataset_link: str, destination: str = None):
+def load_from_kaggle(dataset_link: str, destination: str = "", create_subfolder=True) -> list[str]:
     """
     Loads a dataset from Kaggle and moves it to the specified destination directory.
     Args:
         dataset_link (str): The Kaggle dataset link in the format 'username/dataset-name' 
         
         destination (str): The directory where the dataset will be saved. Defaults to the dataset name.
+        
+        create_subfolder (bool): If True, creates a subfolder with the dataset name in the destination directory.
     Returns:
-        None
+        List [str]: A list of file names that were moved to the destination directory.
     """
     path = kagglehub.dataset_download(dataset_link, force_download=True)
-    if destination is None:
-        destination = dataset_link.split("/")[-1]
+    if create_subfolder:
+        destination = os.path.join(destination, dataset_link.split("/")[-1])
+    if not os.path.exists(destination):
+        os.makedirs(destination, exist_ok=True)
+    print(f"Loading dataset from {path} to {destination}")
+    
     _move_files(path, destination)
+    return os.listdir(os.path.join(os.getcwd(), destination))
 
