@@ -3,14 +3,39 @@
 > **Für Kursteilnehmer*innen:** Diese Sektion nach dem Setup deines Projekts löschen!
 
 ## So verwenden Sie dieses Template:
-Dieses Template hilft dir, dein Data Science Projekt effizient zu organisieren und zu dokumentieren. Es bietet eine gängige Struktur, um deine Arbeit zu planen, durchzuführen und zu präsentieren. Templates können in GitHub über den Button **"Use this template"** in der oberen rechten Ecke in ein eigenes Repository überführt werden. Nutze diese Vorlage als Inspiration und passe sie an dein Projekt an! 
+Dieses Template hilft dir, dein Data Science Projekt effizient zu organisieren und zu dokumentieren. Es bietet eine gängige Struktur, um deine Arbeit zu planen, durchzuführen und zu präsentieren.
 
-Neben einer grundlegenden Ordnerstruktur für deine Dateien und Notebooks, enthält dieses Template unter `.github\ISSUE_TEMPLATE` einige Vorlagen für GitHub Issues, die dir helfen, deine Aufgaben zu organisieren und den Fortschritt deines Projekts zu verfolgen.
+### 1. Template verwenden
+Templates können in GitHub über den Button **"Use this template"** in der oberen rechten Ecke in ein eigenes Repository überführt werden. Nutze diese Vorlage als Inspiration und passe sie an dein Projekt an! 
 
-Lies dir die Datei `PROJECT_SETUP.md` durch, um mehr über die Nutzung dieses Templates zu erfahren.
+### 2. Projekt klonen
+Danach kannst du dein neues Repository direkt über VS Code klonen. Dazu öffnest du in VS Code die Kommando-Palette (Strg+Shift+P) bzw. (Cmd+Shift+P) auf dem Mac und gibst **"Git: Clone"** ein. Wähle dann "Clone from GitHub..." und melde dich ggf. bei GitHub an. Suche nach deinem Repository und wähle einen lokalen Ordner aus, in dem das Projekt gespeichert werden soll.
+
+### 3. Abhängigkeiten installieren
+Nachdem du das Repository geklont hast, musst du die Abhängigkeiten installieren. Öffne dazu ein neues Terminal in VS Code und führe die folgenden Befehle aus:
+
+```bash
+uv sync
+```
+
+### 4. Erweiterungen hinzufügen
+Für dieses Projekt empfehlen wir die Installation der folgenden VS Code Erweiterungen:
+- **Python** (Microsoft) - Bietet Unterstützung für Python-Entwicklung.
+- **Jupyter** (Microsoft) - Ermöglicht das Arbeiten mit Jupyter Notebooks direkt in VS Code.
+- **Even Better TOML** (tamasfe) - Verbessert die Bearbeitung von TOML-Dateien, die in `uv` verwendet werden.
+- **Ruff** (Astral Software) - Ein schneller Linter für Python, der dir hilft, sauberen Code zu schreiben.
+
+Dafür kannst du den Erweiterungs-Tab in VS Code öffnen (Symbol mit den vier Quadraten auf der linken Seitenleiste) und in die Suchleiste `@recommended` eingeben. Danach sollten dir die empfohlenen Erweiterungen angezeigt werden.
+
+### Notebooks ausführen
+Im Ordner `notebooks/` findest findest du ein Jupyter Notebook namens `01_exploration.ipynb`, das als Ausgangspunkt für deine Datenanalyse dient. Öffne das Notebook in VS Code und führe die Zellen nacheinander aus. Wenn alles geklappt hat wird das Notebook einen Datensatz von Kaggle laden und im Ordner `data/` speichern.
+
+Von hier an kannst du mit deinem Projekt starten und die Vorlagen nach belieben anpassen.
+
 
 Für dein Projekt kannst du die folgenden Abschnitte in der `README.md` Datei anpassen, um dein Projekt zu beschreiben und zu präsentieren. Lösche anschließend diese Anleitung.
 
+---
 
 # [DEIN PROJEKTTITEL HIER] 🚀
 
@@ -27,111 +52,31 @@ Für dein Projekt kannst du die folgenden Abschnitte in der `README.md` Datei an
 **Methoden:** 
 <!-- Welche Techniken/Algorithmen verwendest du? -->
 
-## 🎯 Key Findings
 
-<!-- Hier deine wichtigsten Erkenntnisse in 3-5 Bullet Points -->
-- 📈 **Erkenntnis 1:** Kurze Beschreibung
-- 🔍 **Erkenntnis 2:** Kurze Beschreibung  
-- 💡 **Erkenntnis 3:** Kurze Beschreibung
 
-## 📁 Repository Struktur
+## Setup
 
-```
-├── data/
-│   ├── raw/                    # Originaldaten
-│   └── processed/              # Bereinigte Daten
-├── notebooks/                  # Jupyter Notebooks
-│   └── 01_exploration.ipynb    # Datenexploration
-├── src/dpp                     # Python Module
-├── test/                       # Unit Tests
-├── pyproject.toml              # Projektkonfiguration
-└── docs/                       # Zusätzliche Dokumentation
-```
-
-## 🔧 Verwendete Technologien
-
-**Programmiersprachen:**
-<!-- z.B. Python, R, SQL -->
-
-**Libraries & Frameworks:**
-<!-- z.B. pandas, scikit-learn, matplotlib, etc. -->
-
-**Tools:**
-<!-- z.B. Jupyter, Git, Docker, etc. -->
-
-## 📊 Daten
-
-**Datenquelle:** 
-<!-- Woher kommen deine Daten? -->
-
-**Datensatz-Größe:** 
-<!-- Anzahl Zeilen/Spalten, Dateigröße -->
-
-**Wichtige Features:** 
-<!-- Beschreibung der wichtigsten Variablen -->
-
-## 🤖 Methodik
-
-### Data Preprocessing
-<!-- Kurze Beschreibung deiner Datenbereinigung -->
-
-### Modeling Approach  
-<!-- Welche Modelle hast du getestet? -->
-
-### Evaluation
-<!-- Wie hast du die Ergebnisse bewertet? -->
-
-## 📈 Ergebnisse
-
-**Model Performance:**
-<!-- Deine besten Metriken (Accuracy, RMSE, etc.) -->
-
-**Wichtigste Visualisierungen:**
-<!-- Verweis auf Key-Plots in deinen Notebooks -->
-
-## 🚀 Reproduzierbarkeit
-
-### Setup
+Klone das Repository
 ```bash
 # Repository klonen
 git clone [DEIN-REPO-LINK]
 cd [REPO-NAME]
+```
 
+Installiere [uv](https://uv.dev) (falls noch nicht installiert) und synchronisiere die Abhängigkeiten
+```bash
 # Dependencies installieren
 uv sync
 ```
 
 ### Ausführung
-```bash
-# Notebooks in dieser Reihenfolge ausführen:
-# 1. notebooks/01_exploration.ipynb
-# 2. notebooks/02_preprocessing.ipynb  
-# 3. notebooks/03_modeling.ipynb
-# 4. notebooks/04_results.ipynb
-```
+
+Notebooks in dieser Reihenfolge ausführen:
+1. notebooks/01_exploration.ipynb
+<!--
+2. notebooks/02_preprocessing.ipynb
+3. notebooks/03_modeling.ipynb
+4. notebooks/04_results.ipynb
+-->
 
 
-## 🎓 Über dieses Projekt
-
-**Kontext:** 
-<!-- Im Rahmen welches Kurses/welcher Veranstaltung? -->
-
-**Zeitraum:** 
-<!-- Wann hast du das Projekt durchgeführt? -->
-
-**Autor:** 
-<!-- Dein Name -->
-
-## 📞 Kontakt
-
-**GitHub:** [@DeinUsername](https://github.com/DeinUsername)  
-**E-Mail:** deine.email@beispiel.de  
-**LinkedIn:** [Dein Profil](https://linkedin.com/in/dein-profil)
-
-## 🙏 Danksagungen
-
-<!-- Hier kannst du Personen oder Ressourcen erwähnen, die dir geholfen haben -->
-
----
-
-**⭐ Wenn dir dieses Projekt gefällt, gib gerne einen Star!**
