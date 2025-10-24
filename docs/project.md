@@ -92,8 +92,9 @@ dependencies = [
     "kagglehub>=0.3.13",     # Kaggle Integration
     "matplotlib>=3.10.7",    # Plotting
     "pandas>=2.3.3",         # Datenanalyse
-    "scikit-learn>=1.7.2",   # Machine Learning
     "seaborn>=0.13.2",       # Visualisierung
+    "duckdb>=1.4.1",         # In-Memory Datenbank für Analysen mit SQL
+    "scikit-learn>=1.7.2",   # Machine Learning
 ]
 ```
 
