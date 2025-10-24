@@ -12,7 +12,7 @@ Templates können in GitHub über den Button **"Use this template"** in der ober
 Danach kannst du dein neues Repository direkt über VS Code klonen. Dazu öffnest du in VS Code die Kommando-Palette (Strg+Shift+P) bzw. (Cmd+Shift+P) auf dem Mac und gibst **"Git: Clone"** ein. Wähle dann "Clone from GitHub..." und melde dich ggf. bei GitHub an. Suche nach deinem Repository und wähle einen lokalen Ordner aus, in dem das Projekt gespeichert werden soll.
 
 ### 3. Abhängigkeiten installieren
-Nachdem du das Repository geklont hast, musst du die Abhängigkeiten installieren. Öffne dazu ein neues Terminal in VS Code und führe die folgenden Befehle aus:
+Nachdem du das Repository geklont hast, musst du die Abhängigkeiten installieren. Öffne dazu ein neues Terminal in VS Code über die Menüleiste "Terminal"->"Neues Terminal" und führe die folgenden Befehle aus:
 
 ```bash
 uv sync
@@ -22,15 +22,17 @@ uv sync
 Für dieses Projekt empfehlen wir die Installation der folgenden VS Code Erweiterungen:
 - **Python** (Microsoft) - Bietet Unterstützung für Python-Entwicklung.
 - **Jupyter** (Microsoft) - Ermöglicht das Arbeiten mit Jupyter Notebooks direkt in VS Code.
-- **Even Better TOML** (tamasfe) - Verbessert die Bearbeitung von TOML-Dateien, die in `uv` verwendet werden.
+- **Even Better TOML** (tamasfe) - Verbessert die Bearbeitung von TOML-Dateien.
 - **Ruff** (Astral Software) - Ein schneller Linter für Python, der dir hilft, sauberen Code zu schreiben.
 
 Dafür kannst du den Erweiterungs-Tab in VS Code öffnen (Symbol mit den vier Quadraten auf der linken Seitenleiste) und in die Suchleiste `@recommended` eingeben. Danach sollten dir die empfohlenen Erweiterungen angezeigt werden.
 
 ### Notebooks ausführen
-Im Ordner `notebooks/` findest findest du ein Jupyter Notebook namens `01_exploration.ipynb`, das als Ausgangspunkt für deine Datenanalyse dient. Öffne das Notebook in VS Code und führe die Zellen nacheinander aus. Wenn alles geklappt hat wird das Notebook einen Datensatz von Kaggle laden und im Ordner `data/` speichern.
+Im Ordner `notebooks/` findest du ein Jupyter Notebook namens `01_exploration.ipynb`, das als Ausgangspunkt für deine Datenanalyse dient. Öffne das Notebook in VS Code und wähle oben rechts dein virtuelles Environment als Kernel aus. Führe die Zellen nacheinander aus. Wenn alles geklappt hat wird das Notebook einen Datensatz von Kaggle laden und im Ordner `data/` speichern.
 
 Von hier an kannst du mit deinem Projekt starten und die Vorlagen nach belieben anpassen.
+
+Schaue dir für weitere Informationen zum Template die Datei [docs/project.md](./docs/project.md) an.
 
 
 Für dein Projekt kannst du die folgenden Abschnitte in der `README.md` Datei anpassen, um dein Projekt zu beschreiben und zu präsentieren. Lösche anschließend diese Anleitung.
