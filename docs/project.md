@@ -8,23 +8,27 @@ Dieses Template bietet eine strukturierte Grundlage für Data Science und Data A
 
 ```
 template/
-├── .git/                   # Git Repository
-├── .venv/                  # Virtuelle Python-Umgebung
-├── .vscode/                # VS Code Konfiguration
-├── data/                   # Datenverzeichnis (nicht versioniert)
-│   ├── raw/                # Rohdaten
-│   └── processed/          # Verarbeitete Daten
-├── notebooks/              # Jupyter Notebooks
-│   └── 01_exploration.ipynb
-├── src/                    # Python Source Code
+├── .git/                       # Git Repository
+├── .venv/                      # Virtuelle Python-Umgebung
+├── .vscode/                    # VS Code Konfiguration
+│   ├── extensions.json         # Empfohlene VS Code Extensions
+│   └── settings.json           # Workspace-spezifische Einstellungen
+├── data/                       # Datenverzeichnis (nicht versioniert)
+│   ├── raw/                    # Rohdaten
+│   └── processed/              # Verarbeitete Daten
+├── docs/                       # Dokumentation
+│   └── project.md              # Projektbeschreibung und Anleitungen
+├── notebooks/                  # Jupyter Notebooks
+│   └── 01_exploration.ipynb    # Beispiel-Notebook
+├── src/                        # Python Source Code
 │   └── core/
-│       ├── __init__.py
-│       ├── data.py         # Datenlade-Funktionen
-│       └── model.py        # Model-Funktionen
-├── .gitignore              # Git Ignore Regeln
-├── pyproject.toml          # Projekt-Konfiguration
-├── README.md               # Projekt-Beschreibung
-└── uv.lock                 # Abhängigkeiten Lock-File
+│       ├── __init__.py         # Macht core zu einem Package
+│       └── data.py             # Datenlade-Funktionen
+├── .gitignore                  # Git Ignore Regeln
+├── .python-version             # Python Version für uv
+├── pyproject.toml              # Projekt-Konfiguration
+├── README.md                   # Projekt-Beschreibung
+└── uv.lock                     # Abhängigkeiten Lock-File
 ```
 
 ## Verzeichnisse und Dateien
