@@ -15,7 +15,7 @@ template/
 │   ├── raw/                # Rohdaten
 │   └── processed/          # Verarbeitete Daten
 ├── notebooks/              # Jupyter Notebooks
-│   └── 01_exploration.ipynb 
+│   └── 01_exploration.ipynb
 ├── src/                    # Python Source Code
 │   └── core/
 │       ├── __init__.py
@@ -54,7 +54,7 @@ Jupyter Notebooks für explorative Datenanalyse und Experimente.
   - Zeigt erste explorative Analysen
   - Dient als Vorlage für weitere Notebooks
 
-**Naming Convention**: Nummerierung mit Präfix (01_, 02_, ...) für chronologische Reihenfolge.
+**Naming Convention**: Nummerierung mit Präfix (01*, 02*, ...) für chronologische Reihenfolge.
 
 ### `src/core/`
 
@@ -98,6 +98,34 @@ dependencies = [
 ]
 ```
 
+##### [ipykernel](https://ipykernel.readthedocs.io/)
+
+Stellt die Verbindung zwischen Jupyter Notebooks und dem Python-Kernel her. Ermöglicht die interaktive Ausführung von Python-Code in Jupyter-Umgebungen.
+
+##### [kagglehub](https://github.com/Kaggle/kagglehub)
+
+Offizielles Python-Package für die Integration mit Kaggle, ermöglicht den einfachen Zugriff auf Kaggle-Datasets und -Modelle. Vereinfacht das Herunterladen und Verwalten von Kaggle-Ressourcen direkt aus Python-Code.
+
+##### [matplotlib](https://matplotlib.org/stable/index.html)
+
+Die grundlegende Plotting-Bibliothek für Python, bietet umfangreiche Möglichkeiten zur Erstellung statischer, animierter und interaktiver Visualisierungen. Dient als Basis für viele andere Visualisierungsbibliotheken.
+
+##### [pandas](https://pandas.pydata.org/docs/)
+
+Die zentrale Bibliothek für Datenanalyse in Python mit leistungsstarken Datenstrukturen wie DataFrame und Series. Bietet intuitive Werkzeuge für Datenmanipulation, -bereinigung und -analyse.
+
+##### [seaborn](https://seaborn.pydata.org/)
+
+High-Level-Visualisierungsbibliothek basierend auf matplotlib, spezialisiert auf statistische Grafiken. Ermöglicht die Erstellung ästhetisch ansprechender und informativer Visualisierungen mit weniger Code.
+
+##### [duckdb](https://duckdb.org/docs/)
+
+Hochperformante In-Memory SQL-Datenbank, optimiert für analytische Workloads (OLAP). Ermöglicht SQL-Abfragen direkt auf DataFrames und CSV-Dateien ohne externe Datenbankserver.
+
+##### [scikit-learn](https://scikit-learn.org/stable/documentation.html)
+
+Die umfassendste Machine-Learning-Bibliothek für Python mit Algorithmen für Klassifikation, Regression, Clustering und mehr. Bietet eine einheitliche API und umfangreiche Tools für Modelltraining, -evaluation und -präprozessierung.
+
 #### Build System
 
 Das Build System ermöglicht es, den `src/core` Code als importierbares Python-Package zu verwenden:
@@ -116,6 +144,7 @@ Dadurch kannst du in Notebooks `from core.data import ...` verwenden.
 ### `.gitignore`
 
 Definiert Dateien und Ordner, die nicht ins Git Repository committed werden sollen:
+
 - Virtuelle Umgebungen (`.venv/`)
 - Datenverzeichnisse (`data/`)
 - Cache-Dateien (`__pycache__/`, `*.pyc`)
@@ -139,6 +168,7 @@ uv add <paketname>
 ```
 
 Beispiel:
+
 ```bash
 uv add numpy
 uv add plotly>=5.0.0
@@ -153,6 +183,7 @@ uv remove <paketname>
 ```
 
 Beispiel:
+
 ```bash
 uv remove numpy
 ```
@@ -166,20 +197,10 @@ uv sync
 Installiert alle in `pyproject.toml` definierten Pakete und bringt die virtuelle Umgebung auf den aktuellen Stand.
 
 **Wichtig**: Führe `uv sync` aus nach:
+
 - Clone eines Repositories
 - Änderungen an `pyproject.toml`
 - Pull von Updates
-
-### Virtuelle Umgebung aktivieren (optional)
-Du kannst das Environment im Terminal aktivieren. Das ist meistens nicht notwendig, da UV die Umgebung automatisch verwaltet. Um Python Dateien auszuführen, kannst du den uv Command `uv run <dateiname>.py` verwenden ohne das Environment manuell zu aktivieren.
-
-```bash
-# Windows
-.venv\Scripts\activate
-
-# Linux/Mac
-source .venv/bin/activate
-```
 
 ## Workflow
 
@@ -212,4 +233,3 @@ source .venv/bin/activate
 - **Code-Organisation**: Wiederholter Code → Module, Einmalige Analysen → Notebooks
 - **Dokumentation**: README und Docstrings aktuell halten
 - **Naming**: Aussagekräftige Namen für Notebooks und Module
-
