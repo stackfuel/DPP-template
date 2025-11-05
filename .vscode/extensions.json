@@ -4,5 +4,6 @@
         "ms-python.python",
         "tamasfe.even-better-toml",
         "charliermarsh.ruff",
+        "pkief.material-icon-theme"
     ],
 }
