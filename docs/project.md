@@ -84,7 +84,7 @@ readme = "README.md"                        # Pfad zur README-Datei
 requires-python = ">=3.14"                  # Unterstützte Python-Version
 ```
 
-**Passe diese Felder an dein Projekt an!**
+*Passe diese Felder an dein Projekt an!*
 
 #### Abhängigkeiten
 
@@ -102,33 +102,26 @@ dependencies = [
 ]
 ```
 
-##### [ipykernel](https://ipykernel.readthedocs.io/)
+> [ipykernel](https://ipykernel.readthedocs.io/)  
+  Stellt die Verbindung zwischen Jupyter Notebooks und dem Python-Kernel her. Ermöglicht die interaktive Ausführung von Python-Code in Jupyter-Umgebungen.
 
-Stellt die Verbindung zwischen Jupyter Notebooks und dem Python-Kernel her. Ermöglicht die interaktive Ausführung von Python-Code in Jupyter-Umgebungen.
+> [kagglehub](https://github.com/Kaggle/kagglehub)  
+  Offizielles Python-Package für die Integration mit Kaggle, ermöglicht den einfachen Zugriff auf Kaggle-Datasets und -Modelle. Vereinfacht das Herunterladen und Verwalten von Kaggle-Ressourcen direkt aus Python-Code.
 
-##### [kagglehub](https://github.com/Kaggle/kagglehub)
-
-Offizielles Python-Package für die Integration mit Kaggle, ermöglicht den einfachen Zugriff auf Kaggle-Datasets und -Modelle. Vereinfacht das Herunterladen und Verwalten von Kaggle-Ressourcen direkt aus Python-Code.
-
-##### [matplotlib](https://matplotlib.org/stable/index.html)
-
+> [matplotlib](https://matplotlib.org/stable/index.html)  
 Die grundlegende Plotting-Bibliothek für Python, bietet umfangreiche Möglichkeiten zur Erstellung statischer, animierter und interaktiver Visualisierungen. Dient als Basis für viele andere Visualisierungsbibliotheken.
 
-##### [pandas](https://pandas.pydata.org/docs/)
+> [pandas](https://pandas.pydata.org/docs/)  
+  Die zentrale Bibliothek für Datenanalyse in Python mit leistungsstarken Datenstrukturen wie DataFrame und Series. Bietet intuitive Werkzeuge für Datenmanipulation, -bereinigung und -analyse.
 
-Die zentrale Bibliothek für Datenanalyse in Python mit leistungsstarken Datenstrukturen wie DataFrame und Series. Bietet intuitive Werkzeuge für Datenmanipulation, -bereinigung und -analyse.
+> [seaborn](https://seaborn.pydata.org/)  
+  High-Level-Visualisierungsbibliothek basierend auf matplotlib, spezialisiert auf statistische Grafiken. Ermöglicht die Erstellung ästhetisch ansprechender und informativer Visualisierungen mit weniger Code.
 
-##### [seaborn](https://seaborn.pydata.org/)
-
-High-Level-Visualisierungsbibliothek basierend auf matplotlib, spezialisiert auf statistische Grafiken. Ermöglicht die Erstellung ästhetisch ansprechender und informativer Visualisierungen mit weniger Code.
-
-##### [duckdb](https://duckdb.org/docs/)
-
+> [duckdb](https://duckdb.org/docs/)  
 Hochperformante In-Memory SQL-Datenbank, optimiert für analytische Workloads (OLAP). Ermöglicht SQL-Abfragen direkt auf DataFrames und CSV-Dateien ohne externe Datenbankserver.
 
-##### [scikit-learn](https://scikit-learn.org/stable/documentation.html)
-
-Die umfassendste Machine-Learning-Bibliothek für Python mit Algorithmen für Klassifikation, Regression, Clustering und mehr. Bietet eine einheitliche API und umfangreiche Tools für Modelltraining, -evaluation und -präprozessierung.
+> [scikit-learn](https://scikit-learn.org/stable/documentation.html)  
+  Die umfassendste Machine-Learning-Bibliothek für Python mit Algorithmen für Klassifikation, Regression, Clustering und mehr. Bietet eine einheitliche API und umfangreiche Tools für Modelltraining, -evaluation und -präprozessierung.
 
 #### Build System
 
