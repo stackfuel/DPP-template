@@ -12,13 +12,13 @@
   "editor.formatOnSave": true,
   "editor.tabSize": 4,
   "editor.insertSpaces": true,
-  "editor.rulers": [79, 88],
   "editor.bracketPairColorization.enabled": true,
   "editor.guides.bracketPairs": true,
   "editor.stickyScroll.enabled": true,
 
   // Python-specific Editor Settings
   "[python]": {
+    "editor.rulers": [79, 88],
     "editor.formatOnSave": true,
     "editor.defaultFormatter": "charliermarsh.ruff",
     "editor.codeActionsOnSave": {
@@ -69,5 +69,4 @@
     ".pytest_cache": true,
     ".ruff_cache": true
   }
-
 }
